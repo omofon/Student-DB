@@ -1,6 +1,27 @@
-# Student-DB
+# 🎓 Student Management System (C Project)
 
-Student Management System written in C programming language. Daffodil International University , Spring 2017 m Data Structure lab Project . <br> 
-<h1>Student Management System in C</h1>
-<p>Simple project in c to manage student. You can add student, modify theme, delete theme. There is a different option to view all student and view student individually. 
-</p>
+A simple **console-based Student Database Management System** written in **C**, built for academic purposes.  
+This program allows adding, modifying, displaying, and deleting student records, along with a password-protected login system.
+
+---
+
+## ✨ Features
+
+- 🔑 **Password-protected login**  
+  - Password stored in `Password.txt` (editable by admin).
+- ➕ **Add Student Records**  
+  - Store student **name**, **department**, **roll number**, **SGPA for 12 semesters**, and **calculated CGPA**.
+- ✏️ **Modify Student Records**  
+  - Update an existing student’s information.
+- 📋 **View Records**
+  - **Show All Students** – Displays all saved records.  
+  - **Individual View** – Search and view a student by roll number.
+- ❌ **Delete Records**  
+  - Remove student data permanently.
+- 🔐 **Change Password**  
+  - Update login password and save it to file.
+
+---
+
+## 🗂️ Project Structure
+
